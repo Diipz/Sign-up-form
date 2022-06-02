@@ -1,0 +1,225 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: norse-bold;
+    src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 60vw;
+    height: 100vh;
+    margin: auto;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.left-column {
+    width: 35%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.leaf-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.wrapper {
+    width: 100%;
+    height: 10%;
+    margin-top: 15rem;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: black;
+    opacity: 0.70;
+    z-index: 1;
+}
+
+.logo {
+    max-width: 4rem;
+}
+
+p.text-logo {
+    font-family: norse-bold, sans-serif;
+    font-size: 4rem;
+    color: aliceblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.statement {
+    flex-grow: 2;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 4rem 2rem 4rem 2rem;
+
+}
+
+.sign-up {
+    height: 30%;
+    background-color: #ffffff;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.form-container {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    flex: 1 1 auto;
+}
+
+.left-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.right-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.create-account {
+    height: 35%;
+}
+
+.statement p {
+    font-size: large;
+    font-weight: bold;
+}
+
+.sign-up p {
+    font-size: large;
+    font-weight: bold;
+}
+
+button {
+    margin: 2rem;
+    padding: 0.5rem;
+    width: 30%;
+    color: aliceblue;
+    background-color: #596D48;
+    border-radius: 5px;
+    border-color: white
+}
+
+.create-account p {
+    margin: 0rem 2rem 2rem;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.create-account a:link {
+    text-decoration: none;
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: 2px 2px grey;
+}
